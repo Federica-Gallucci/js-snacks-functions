@@ -3,16 +3,28 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
-function arrayNames(namesList) {
+
+// function arrayNames(namesList) {
+//   const initialsNames = [];
+//   for (let i = 0; i < namesList.length; i++) {
+//     let currentName = namesList[i];
+//     initialsNames.push(currentName[0]);
+//   }
+//   return initialsNames;
+// }
+
+// ** ARROW FUNCTION
+
+const arrayNames = (namesList) => {
   const initialsNames = [];
   for (let i = 0; i < namesList.length; i++) {
     let currentName = namesList[i];
     initialsNames.push(currentName[0]);
   }
   return initialsNames;
-}
-
+};
 // Invoca la funzione qui e stampa il risultato in console
+
 console.log(arrayNames(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

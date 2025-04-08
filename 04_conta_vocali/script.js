@@ -9,7 +9,25 @@ const word = "javascript";
  * @param {string} phrase stringa in cui contare le vocali
  * @returns {number} numero di vocali
  */
-function countVowels(phrase) {
+// function countVowels(phrase) {
+//   let vowelsNumber = 0;
+//   for (let i = 0; i < phrase.length; i++) {
+//     const currentChar = phrase[i].toLowerCase();
+//     if (
+//       currentChar === "a" ||
+//       currentChar === "e" ||
+//       currentChar === "i" ||
+//       currentChar === "o" ||
+//       currentChar === "u"
+//     )
+//       vowelsNumber += 1;
+//   }
+//   return vowelsNumber;
+// }
+
+// **ARROW FUNCTION
+
+const countVowels = (phrase) => {
   let vowelsNumber = 0;
   for (let i = 0; i < phrase.length; i++) {
     const currentChar = phrase[i].toLowerCase();
@@ -23,7 +41,7 @@ function countVowels(phrase) {
       vowelsNumber += 1;
   }
   return vowelsNumber;
-}
+};
 
 // Invoca la funzione qui e stampa il risultato in console
 
