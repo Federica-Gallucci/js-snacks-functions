@@ -7,10 +7,6 @@ e buonasera se è sera (oltre le 17)
 
 const nameUser = "Mario";
 
-const today = new Date();
-// console.log(today);
-// console.log(today.getHours());
-
 // Dichiara la funzione qui.
 
 // function greetUser(user) {
